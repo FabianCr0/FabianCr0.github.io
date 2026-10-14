@@ -1,0 +1,97 @@
+
+/* Style websites body */
+body {
+    background-color: gray;
+}
+
+/* Website container (middle of the page) */
+div {
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    background-color: white;
+}
+
+/* Header */
+header {
+    background-color: darkslateblue;
+    padding: 5px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+/* Navigation bar & Style rules */
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color:darkslateblue;
+  display: flex;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: blue;
+}
+
+/* Unordered List */
+ul {
+    list-style-type: square;
+}
+
+/* Centre of the page */
+main {
+  border: 2px, solid black;
+  color: black;
+  padding: 10px;
+}
+
+/* Font and text rules */
+main p, h1, h2, nav, header, footer {font-family: 'Times New Roman', Times, serif; font-style: normal; font-size: 16px; text-align: left;}
+
+/* Removes text decoration for hyperlinks and makes them a bold font */
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Anchor style rules */
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+    
+/* Paragraph style rules */
+p {
+    color: black;
+    text-align: left;
+}
+
+/* Footer Anchor style rules */
+footer a:link, footer a:hover, footer a:active{
+    color: white;
+}
+
+/* Footer style Rules */
+footer{
+    background-color: darkslateblue;
+    padding: 10px;
+    color: white;
+}
